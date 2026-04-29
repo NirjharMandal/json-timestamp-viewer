@@ -1,0 +1,21 @@
+/**
+ * MIDB JSON Viewer — timestamp annotation styles.
+ * Edit colors freely here; no inline styles override these.
+ */
+
+/* Wrapper — controls shared layout */
+.midb-ts-comment {
+  opacity: 0.9;
+  margin-left: 10px;
+  font-style: italic;
+}
+
+/* UTC time — muted gray */
+.midb-ts-utc {
+  color: #bfbfbf !important;
+}
+
+/* BDT time — distinct accent color */
+.midb-ts-bdt {
+  color: #0e782e !important; /* soft cyan — change freely */
+}
